@@ -1,0 +1,12 @@
+# Advanced Programming Fourth Homework BY Rodrigo E. Rovira Montoya.
+
+## Summary: 
+ - Using the MVC pattern, this programm is going to read the content of the medidas.csv included within the files, to extract the City ID, the power consumed in an specific hour, and the hour at which it was done.
+ - Before accessing the file, the programm will ask the user to register, but it if has already written his/her name, it will be read from the Data Base. 
+ - It's going to be calculate the the total amount of energy consumed per city and the peak hour, and print it.
+ 
+ ## Libraries that were used: 
+ 
+  - sqllite3: to implement the data base.
+  - re: to implement some regular expressions.
+  - csv: to read the .csv file. 
