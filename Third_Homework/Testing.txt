@@ -1,0 +1,18 @@
+class City_Controller: #This is were the peak hour and the total consumed is calculated.
+
+class Substation_Controller: #This is were the city list is read and the information is manipulated.
+
+class Operator_Controller: #This is where the cities are created.
+
+    def __init__(self):
+        self.view = KwH_Calculator()
+
+
+    try:
+        values = input()
+    except Error:
+        print("An error has ocurred. [ "+Error+" ].")
+
+
+
+sql_create_table(obj_connection)
