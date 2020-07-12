@@ -1,0 +1,35 @@
+-----------------------------------------------------------------------------------------------
+| Trying to understand how to read a JSON file using JS.                                                        |
+-----------------------------------------------------------------------------------------------
+
+//Getting element Drop-down form the Player page.
+var dropdown = document.getElementById("id_user_option");
+
+//Setting a template for the array.
+var User_List = '{ "users" : [' +
+'{ "name":"N/A" , "lastname":"N/A" , "username":"N/A", "email":"N/A" , "password":"N/A", "ID_User":"000"} ]}';
+var obj = JSON.parse(text); 
+
+//Filling the drop-down with the first option. Empty. 
+var option = document.createElement("option");
+option.User_List = obj.users[0].ID_User;
+dropdown.add(option);
+
+//! Testing tool, please remove later.
+console.log(obj.users[0].ID_User)
+
+-----------------------------------------------------------------------------------------------
+| Trying to understand what a BLOB is.                                                        |
+-----------------------------------------------------------------------------------------------
+
+function reqListener()
+{
+    console.log(request)
+}
+
+var url = "test.json"
+
+var obj = new XMLHttpRequest();
+obj.addEventListener("load", reqListener);
+obj.open("GET", url, false);
+obj.send();

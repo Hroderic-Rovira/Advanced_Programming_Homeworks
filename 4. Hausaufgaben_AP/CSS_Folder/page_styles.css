@@ -1,0 +1,35 @@
+body
+{
+    background-color: rgb(40,44,52);
+}
+#menu_div
+{
+    margin-top: 150px;
+    margin-left: 425px;
+    margin-right: 425px;
+    width: 1fr;
+    background-color: rgb(52, 57, 66);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+.menu_option
+{
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;  
+}
+.menu_option:hover
+{
+    color: yellow;
+    border-color: yellow;
+    padding-left: 30px;
+    padding-right: 30px;
+}
