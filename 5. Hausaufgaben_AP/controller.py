@@ -113,8 +113,6 @@ class Controller:
             
             print(self.breakline)
 
-            #TODO Create validation for user credentials.
-
             while(loop):
 
                 # Validating username is not empty.
