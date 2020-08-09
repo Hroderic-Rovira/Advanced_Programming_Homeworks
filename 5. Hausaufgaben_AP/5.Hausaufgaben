@@ -1,0 +1,16 @@
+
+    |-------------------------------------------|-------------------------------------------|-------------------------------------------|
+    |                                                                                                           Fecha: 09/08/20         |
+    |   Tarea # 5 de Programación Avanzada - Universidad de Costa Rica                                                                  |
+    |   Autor: Rodrigo Esteban Rovira Montoya                                                                                           |
+    |                                                                                                                                   |
+    |   Librerías utilizadas: json, os, re                                                                                              |
+    |                                                                                                                                   |
+    |   Comentarios:                                                                                                                    |
+    |                                                                                                                                   |
+    |   1. No fui capaz de actualizar el archivo .json llamado existing_users sin duplicar los datos.                                   |
+    |   2. No puede verificar que las letras no se duplicaran en el password.                                                           |
+    |                                                                                                                                   |
+    |                                                                                                                                   |
+    |                                                                                                                                   |
+    |-------------------------------------------|-------------------------------------------|-------------------------------------------|
