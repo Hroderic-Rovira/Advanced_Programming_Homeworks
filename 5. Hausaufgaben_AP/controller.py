@@ -1,19 +1,9 @@
-from models import Player
+
 import json
 import os
 import re
 
-"""La idea es poder cargar los 3
-archivos, y luego realizar funcionalidades con cada uno.
-registration.json = para crear un nuevo jugador.
-login.json = revisar si ese usuario existe y credenciales correctos.
-existing_users.json = carga los usuarios ya existentes.
-
-Genere un programa que permita la creacion de nuevos jugadores,
-valide credenciales para loguearse y guarde los usuarios."""
-
 class Controller:
-# en esta clase se hara todos los metodos necesarios
 
     def __init__(self):
         self.breakline = "|------------------------------------------------------------|"
@@ -106,7 +96,7 @@ class Controller:
         if(username == str(User["username"]) and password == str(User["password"])):
             return True
         else:
-            return True #! Change after coding
+            return False
 
     #endregion
 
@@ -211,6 +201,3 @@ if __name__=="__main__":
     Control = Controller()
     Control.main()
     
-
-
-# y los demas metodos que considere pertinente para las funcionalidades
